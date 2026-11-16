@@ -11,7 +11,7 @@ export default defineConfig({
   },
   define: {
     global: 'window',
-    __DEV__: JSON.stringify(true),
+    __DEV__: JSON.stringify(false),
   },
   server: {
     port: 3000,
